@@ -117,7 +117,7 @@ class CountryCasesDetailsActivity : AppCompatActivity() {
                     )
                 )
 
-                mViewDataBinding?.cvActiveCases?.setCasesHeading("DEATHS")
+                mViewDataBinding?.cvActiveCases?.setCasesHeading("ACTIVE CASES")
                 mViewDataBinding?.cvActiveCases?.setCasesCount("${it?.get(0)?.confirmed?.toString()}")
                 mViewDataBinding?.cvActiveCases?.setCasesTextColor(
                     ContextCompat.getColor(
